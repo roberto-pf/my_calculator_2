@@ -12,16 +12,21 @@
 				var num = document.getElementById("n1");  
 				num.value = 1/num.value; 
 			} 
+			function sin() {  
+				var num = document.getElementById("n1");  
+				num.value = Math.sin( num.value ); 
+			} 
 		</script> 
 	</head> 
 	<body>  
 		<h1>Calculadora de Roberto Pérez Fernández</h1>  
 		Number:  <input type="text" id="n1">  
-		<p>    
+		<p>  
 			<button onclick="calculatePotencia(2)"> x^2 </button>  
 			<button onclick="calculatePotencia(3)"> x^3 </button>  
 			<button onclick="calculatePotencia(4)"> x^4 </button> 
 			<button onclick="resto()"> 1/x </button>  
+			<button onclick="sin()"> sin x </button>			
 		</p> 
 	</body> 
 </html>
