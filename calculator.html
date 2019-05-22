@@ -8,6 +8,10 @@
 				var num = document.getElementById("n1");  
 				num.value = Math.pow(num.value, x); 
 			} 
+			function resto() {  
+				var num = document.getElementById("n1");  
+				num.value = 1/num.value; 
+			} 
 		</script> 
 	</head> 
 	<body>  
@@ -16,6 +20,7 @@
 		<p>    
 			<button onclick="calculatePotencia(2)"> x^2 </button>  
 			<button onclick="calculatePotencia(3)"> x^3 </button>  
+			<button onclick="resto()"> 1/x </button>  
 		</p> 
 	</body> 
 </html>
